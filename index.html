@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Blazzywear | Estilo que confronta</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <header class="header">
+    <nav class="nav container">
+      <h1 class="logo">Blazzywear</h1>
+      <ul class="nav-links">
+        <li><a href="#colecciones">Colecciones</a></li>
+        <li><a href="#tienda">Tienda</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="overlay"></div>
+      <img src="assets/img/17.png" alt="Modelo Blazzywear en callejón neón" class="hero-img" />
+      <div class="hero-content container">
+        <h2 class="hero-slogan">Viste como piensas. Sin pedir permiso.</h2>
+        <button class="btn btn-primary" onclick="scrollToSection('tienda')">Explorar la colección</button>
+      </div>
+    </section>
+
+    <section id="introduccion" class="intro container">
+      <h3>Quiénes somos</h3>
+      <p>
+        Blazzywear es calle, es grito, es mensaje. Diseñamos para quienes no bajan la cabeza.  
+        No seguimos tendencias: las prendemos fuego.  
+        Cada prenda es una declaración.
+      </p>
+    </section>
+
+    <!-- Aquí luego más secciones: tienda, colecciones, contacto... -->
+     <section id="destacados" class="destacados container">
+      <h2 class="section-title">🔥 En la Mira</h2>
+      <div class="productos-destacados">
+        <div class="producto">
+          <img src="assets/img/7.png" alt="Urban Fire Tee">
+          <h4>Energia perpetua 369</h4>
+          <p>Sin mangas. Negra. Directa. Lleva impreso “ALLWAYS 369 ZZY” como un mantra de energía continua. Es para quienes siguen su propio ritmo, quienes nunca se detienen. Inspirada en la vibra de la calle y la numerología del 369 —poder, atracción y creación.🔥 Ideal para climas calientes y almas aún más ardientes.</p>
+          <a href="#" class="btn-destacado">Añadir al fuego</a>
+        </div>
+        <div class="producto">
+          <img src="assets/img/4.png" alt="Dark Pulse Hoodie">
+          <h4>Badman Real Real</h4>
+          <p>También sin mangas, en negro puro. Un grito de identidad: “REALLL BADMAN” al frente, sin filtro ni censura. Esta prenda habla por ti antes de que digas una sola palabra. Perfecta para marcar presencia con cada paso. 💣 No apta para débiles de actitud.</p>
+          <a href="#" class="btn-destacado">Llévatela</a>
+        </div>
+        <div class="producto">
+          <img src="assets/img/15.png" alt="Blazzy Cargo Pant">
+          <h4>Blazzy signature 2.0</h4>
+          <p>Con mangas, full print al frente: “BLAZZY TWO”. La parte trasera lleva un diseño más cargado con mensajes ocultos, códigos visuales o frases que solo los que miran bien entenderán. Una pieza más seria, pero igual de afilada.</p>
+          <a href="#" class="btn-destacado">Ver más</a>
+        </div>
+      </div>
+     </section>
+
+     <section class="join-us-section">
+      <div class="join-us-content">
+        <h2>ÚNETE A LA TRIBU BLAZZY</h2>
+        <p>¿Quieres ser el primero en enterarte de nuevos drops, descuentos 🔥 o eventos callejeros?</p>
+        <form class="join-form">
+          <input type="text" placeholder="Tu nombre" required />
+          <input type="tel" placeholder="WhatsApp (+34...)" required />
+          <input type="email" placeholder="Correo (opcional)" />
+          <button type="submit">Quiero estar al día</button>
+        </form>
+      </div>
+     </section>
+
+
+
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 Blazzywear - Viste tu posición</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
